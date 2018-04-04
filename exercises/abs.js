@@ -10,6 +10,8 @@
  */
 
 // Your code :
+let abs = 2
+return abs
 
 //* Begin of tests
 const assert = require('assert')

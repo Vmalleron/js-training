@@ -7,6 +7,11 @@
  */
 
 // Your code :
+function sub(abc , def){
+    return(abc - def)
+}
+
+
 
 //* Begin of tests
 const assert = require('assert')

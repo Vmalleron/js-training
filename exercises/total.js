@@ -7,6 +7,16 @@
  */
 
 
+const total= ['1', '2', '3']; {
+    
+    var sum = 0;
+    for(var i=0; i<total.length; i++){
+    sum += total[i];
+}
+
+return total; 
+}
+
 //* Begin of tests
 const assert = require('assert')
 
