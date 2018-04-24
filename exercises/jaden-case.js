@@ -8,10 +8,20 @@
  *
  */
 
+function jadenCase(string) {
+let tableau = string.split(' ');
 
+for(let i= 0; i < tableau.length; i++){
+    let word = tableau[i].split('');
+    word[0] = word[0].toUpperCase();
+    tableau[i] = word.join('');
+}
+    return tableau.join(' ')
 
+};
 //* Begin of tests
 const assert = require('assert')
-
-assert.fail('You must write your own tests')
+assert.strictEqual(typeof jadenCase, 'function') 
+assert.strictEqual(jadenCase("je code a la wild"),"Je Code A La Wild")
+// assert.fail('You must write your own tests')
 // End of tests */
